@@ -6,11 +6,11 @@ public class Car {
       this.model = model;
    }
 
-   Car(String model, String color) {
+   Car(String model, String color) 	{
 //      this.model = model;
 //      this.color = color;
 	   this(model, color, 250);
-   }
+   }	
 
    // 자바에서는 생성자를 명시하지 않으면 컴파일 과정에서 생성자를 생성해준다.
    Car(String model, String color, int maxSpeed) {
