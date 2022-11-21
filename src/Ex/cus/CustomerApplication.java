@@ -20,7 +20,7 @@ public class CustomerApplication {
 		customerList.add(customerKim);
 		
 		//모든 고객 정보 출력
-		showAllCustomer();
+		showAllCustomer();	
 
 		//id로 찾은 고객의 실제 지불금액, 보너스 포인트 출력
 		Customer customer = findCustomer(10050); //이율곡 customer 객체를받는다
