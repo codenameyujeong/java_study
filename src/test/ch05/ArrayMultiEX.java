@@ -20,5 +20,5 @@ public class ArrayMultiEX {
 		double class1Avg = (double) class1Sum/ scores[0].length;
 		System.out.println("첫번째 반의 평균" + class1Avg);
 	}
-
+??????
 }
