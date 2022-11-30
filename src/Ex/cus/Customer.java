@@ -7,6 +7,8 @@ public class Customer {
 	int bonusPoint;//포인트 적립 변수
 	double bonusRatio;//보너스 포인트 적립 비율
 	
+	double sale = 0.1;
+	
 	//생성자
 	public Customer() {
 		initCustomer();

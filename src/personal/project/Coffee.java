@@ -1,0 +1,29 @@
+package personal.project;
+
+public class Coffee {
+	String name;
+	String coffeebeans;
+	protected String customerName;
+	protected String customerGrade;
+	int price;
+	int bonusPoint;
+	double bonusRatio;
+	int id;
+	
+	public void show() {
+		System.out.println("이름:" + name);
+		System.out.println("가격:" + price);
+		System.out.println("원두 이름:" + coffeebeans);
+	}
+	
+	public Coffee(int id, String customerName) {
+		this.id = id;
+		this.customerName = customerName;
+	}
+	
+	
+
+	public String showCustomerInfo() {
+		return customerName + "님의 등급: " + customerGrade + ", 보너스 포인트: " + bonusPoint + "점"; 	
+	}
+}

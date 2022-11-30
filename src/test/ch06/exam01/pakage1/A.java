@@ -20,3 +20,7 @@ public class A {
 		void method2() {}
 		private void method3() {}
 }
+@Override
+public String toString() {
+	return id + ":" + name
+}

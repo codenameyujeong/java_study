@@ -18,7 +18,7 @@ public class VIPCustomer extends Customer{
 	@Override
 	public int calcPrice(int price){
 		bonusPoint += price * bonusRatio;
-		return price - (int)(price * saleRatio);
+		return price - (int)(price * saleRatio);	
 	}
 	
 	@Override
