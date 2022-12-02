@@ -1,10 +1,19 @@
 package personal.project;
 
 public class Hazelnutcoffee extends Coffee{
-	public Hazelnutcoffee() {
-		super(4000, "ㅈㄷㅈ");
-		price = 4000;
-		name = "카페라떼";
-		coffeebeans = "게이샤";
+	
+	public Hazelnutcoffee(String name, String coffeebeans, int price) {
+		super(name, coffeebeans, price);
+//		this.name = "헤이즐넛";
+//		this.price = 5000;
+//		this.coffeebeans = "과테말라";
 	}
+	
+//	@Override
+//	public void show() {
+//		System.out.println("이름:" + name);
+//		System.out.println("가격:" + price);
+//		System.out.println("원두 이름:" + coffeebeans);
+//		System.out.println();
+//	}
 }
